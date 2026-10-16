@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/* All colors, fonts and shadows live here as variables */
+@theme {
+  --color-assign-navy: #181e4b;
+  --color-assign-text: #5e6282;
+  --color-assign-orange: #df6951;
+  --color-assign-peach: #ff946d;
+  --color-assign-yellow: #f1a501;
+  --color-assign-cream: #fff1da;
+  --color-assign-lavender: #f8f7ff;
+  --color-assign-purple: #5c4fe0;
+  --color-assign-teal: #006380;
+  --color-assign-glow: #e3eeff;
+  --color-assign-grey: #ebebeb;
+  --color-assign-coral: #ff7a66;
+  --color-assign-violet: #7b6cf5;
+
+  --font-assign-heading: "Volkhov", serif;
+  --font-assign-body: "Poppins", sans-serif;
+
+  --shadow-assign-card: 0 20px 50px rgb(24 30 75 / 0.1);
+  --shadow-assign-yellow: 0 15px 30px rgb(241 165 1 / 0.3);
+  --shadow-assign-orange: 0 15px 30px rgb(223 105 81 / 0.35);
+  --shadow-assign-destination: 0 30px 70px rgb(24 30 75 / 0.14);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-assign-body);
+  color: var(--color-assign-text);
+  background: white;
+  overflow-x: hidden;
+}
+
+/* keeps section titles visible below the sticky navbar */
+section {
+  scroll-margin-top: 80px;
+}
