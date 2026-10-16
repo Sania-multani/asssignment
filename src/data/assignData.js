@@ -36,17 +36,17 @@ export const assignServices = [
   {
     title: "Best Flights",
     text: "Engrossed listening. Park gate sell they west hard for the.",
-    image: "/src/assets/service-flight.svg",
+    image: flightIcon,
   },
   {
     title: "Local Events",
     text: "Barton vanity itself do in it. Preferd to men it engrossed listening.",
-    image: "/src/assets/service-events.svg",
+    image: eventsIcon,
   },
   {
     title: "Customization",
     text: "We deliver outsourced aviation services for military customers",
-    image: "/src/assets/service-custom.svg",
+    image: customIcon,
   },
 ];
 
