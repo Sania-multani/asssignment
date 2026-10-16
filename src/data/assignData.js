@@ -19,6 +19,7 @@ import mikeImg from "../assets/avatar-mike.jpg";
 import chrisImg from "../assets/avatar-chris.jpg";
 import annaImg from "../assets/avatar-anna.jpg";
 
+
 export const assignNavLinks = [
   { label: "Destinations", href: "#destinations" },
   { label: "Hotels", href: "#services" },
@@ -30,7 +31,7 @@ export const assignServices = [
   {
     title: "Calculated Weather",
     text: "Built Wicket longer admire do barton vanity itself do in it.",
-    image: "/src/assets/service-weather.svg",
+    image: weatherIcon,
   },
   {
     title: "Best Flights",
